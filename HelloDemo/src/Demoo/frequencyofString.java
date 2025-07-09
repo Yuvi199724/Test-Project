@@ -18,13 +18,10 @@ public class frequencyofString {
 		        {
 		            wordFrequency.put(word, wordFrequency.getOrDefault(word, 0) + 1);
 		        }
-
 		        System.out.println("Word Frequencies:");
 		        for (Map.Entry<String, Integer> entry : wordFrequency.entrySet()) 
 		        {
 		            System.out.println(entry.getKey() + " -> " + entry.getValue());
 		        }
-
 	}
-
 }
