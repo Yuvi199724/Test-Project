@@ -21,7 +21,6 @@ public class CheckString {
 		 System.out.println( str2 +"  "+ "Str2 is present:"+"  "+ (i+1)+ "place");
 		 break;
 	 }
-	 
  }
  
  if(!found)
