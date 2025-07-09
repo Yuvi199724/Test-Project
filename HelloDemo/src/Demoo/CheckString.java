@@ -14,7 +14,6 @@ public class CheckString {
  
  for(int i=0;i<=strnew.length-1;i++)
  {
-//	 System.out.println(strnew[i]);
 	 
 	 if(strnew[i].equalsIgnoreCase(str2))
 	 {
