@@ -53,7 +53,7 @@ public class SiblingsXpath {
 //		
 //		System.out.println(text);
 		
-//		driver.quit();
+		driver.quit();
 		
 		
 	}}

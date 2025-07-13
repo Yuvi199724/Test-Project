@@ -34,11 +34,7 @@ public class staticDropdown
 	 dropdown.selectByValue("INR");
 	 System.out.println(dropdown.getFirstSelectedOption().getText());
 	 
-	 ///////// pass 53
-	 
-//	 WebElement passing =driver.findElement(By.id("divpaxinfo"));
-	 
-	  
+	 driver.manage().window().minimize();
 	  driver.quit();
 	
 	

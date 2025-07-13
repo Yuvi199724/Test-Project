@@ -24,6 +24,7 @@ public class DynamicDropDown {
 		Thread.sleep(3000);
 		from.isDisplayed();
 		from.click();
+//		
 		driver.findElement(By.xpath("(//li//a[contains(.,' Bengaluru (BLR)')])[1]")).isDisplayed();
 		driver.findElement(By.xpath("(//li//a[contains(.,' Bengaluru (BLR)')])[1]")).click();
 //		Thread.sleep(3000);

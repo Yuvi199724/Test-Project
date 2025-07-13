@@ -25,9 +25,8 @@ public class AutoSuggestiveDropDown
 			 TypeCountry.click();
 			 TypeCountry.sendKeys("IND");
 			 Thread.sleep(3000);
-//			 driver.findElement(By.xpath("(//ul//li//a[contains(.,'India')])[3]")).click();
 			 
-			 List<WebElement> options = driver.findElements(By.xpath("//li//a[@class=\"ui-corner-all\"]"));
+			 List<WebElement> options = driver.findElements(By.xpath("//li//a[@class='ui-corner-all']"));
 			 
 			 for(WebElement  option :options)
 			 { 
@@ -35,14 +34,6 @@ public class AutoSuggestiveDropDown
 				 {
 					option.click(); 
 					break;
-				 }
-				 
-				 
-			 }
-//			 
-//			 System.out.println(options);
-			 
-			 
-			
-			 
+}				 
+} 
 }}
