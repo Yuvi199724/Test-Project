@@ -3,7 +3,6 @@ package defaultSelenium;
 import java.time.Duration;
 
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
 
 public class Seleniumfullly {
 	
@@ -17,6 +16,7 @@ public class Seleniumfullly {
 		
 		driver.get(URL);
 		driver.manage().window().maximize();
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		String pageTitle=driver.getTitle();
 		System.out.println(pageTitle);
