@@ -28,7 +28,7 @@ public class ActionDemo {
 		String Actual1 = "Click the button below to continue shopping";
 		String Exp1 = "Click the button below to continue shopping";
 
-		Assert.assertEquals(Actual1, Exp1);
+		Assert.assertEquals(Actual1, Exp1,"Both are not same");
 
 		try {
 			driver.findElement(By.xpath("//button[contains(.,'Continue shopping')]")).click();
@@ -50,7 +50,7 @@ public class ActionDemo {
 		
 		
 
-//		driver.quit();
+		driver.quit();
 
 	}
 

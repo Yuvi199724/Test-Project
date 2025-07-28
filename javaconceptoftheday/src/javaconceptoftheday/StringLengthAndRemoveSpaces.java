@@ -9,6 +9,8 @@ public class StringLengthAndRemoveSpaces
 		
 		int len =s1.length();
 		
+		System.out.println(s1.length());
+		
 		System.out.println(len);
 		
 		String s2 = s1.replaceAll(" ","");
